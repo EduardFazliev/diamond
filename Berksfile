@@ -3,7 +3,9 @@ source "https://supermarket.getchef.com"
 
 metadata
 
-cookbook "python"
+cookbook "python",
+    github: "https://github.com/EduardFazliev/python"
+
 cookbook "git"
 cookbook "build-essential"
 cookbook "runit"
